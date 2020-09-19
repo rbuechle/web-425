@@ -1,9 +1,13 @@
-/**
- * Title: Assignment 1.5
- * Author: Becca Buechle
- * Date: September 15 2020
- * Description: components
- */
+/*
+============================================
+; Title: Assignment 1.5
+; Author:  Peter Itskovich
+; Date: September 15 2020
+; Modified By: Becca Buechle
+; Description: component
+;===========================================
+*/
+
 import { Component } from '@angular/core';
 
 @Component({

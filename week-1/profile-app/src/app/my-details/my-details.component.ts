@@ -1,9 +1,13 @@
-/**
- * Title: my-details.component.ts
- * Author: Becca Buechle
- * Date: September 15 2020
- * Description: component
- */
+/*
+============================================
+; Title: my-details.component.ts
+; Author:  Peter Itskovich
+; Date: September 15 2020
+; Modified By: Becca Buechle
+; Description: component
+;===========================================
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
