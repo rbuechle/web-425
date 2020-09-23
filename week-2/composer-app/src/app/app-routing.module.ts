@@ -1,27 +1,30 @@
 /*
 ============================================
-; Title: routing
+; Title: app.routing.ts
 ; Author:  Peter Itskovich
 ; Date: September 22 2020
 ; Modified By: Becca Buechle
-; Description: Assignment 2.2 Navigation
+; Description: Assignment 2.4 Routing in Action
 ;===========================================
 */
 
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { ComposerListComponent } from './composer-list/composer-list.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    redirectTo: '/composer-list',
+    pathMatch: 'full'
   },
   {
-    path: 'home',
-    component: HomeComponent
+    path: 'composer-list',
+    component: ComposerListComponent
   },
   {
     path: 'contact',
@@ -37,4 +40,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
