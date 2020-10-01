@@ -16,6 +16,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isLoggedIn: Boolean = true;
-  assignment: string = 'Assignment 2.3 - Data Binding';
+
+  assignment: string = 'Exercise 2.3 - Data Binding'
 }
