@@ -9,7 +9,7 @@ export class AppComponent {
   assignment: string;
 
   constructor() {
-    this.assignment = "Assignment 5.3 Data Tables"
+    this.assignment = "Assignment 5.4 Dialogs"
   }
 
 }
