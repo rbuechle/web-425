@@ -1,0 +1,19 @@
+.logo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: orange;
+
+}
+
+.button {
+  background-color: orange;
+}

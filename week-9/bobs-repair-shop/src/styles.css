@@ -1,0 +1,7 @@
+body {
+  background-color: lightgrey;
+}
+
+.card {
+  min-height: 450px
+}

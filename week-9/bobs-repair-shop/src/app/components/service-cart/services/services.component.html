@@ -1,0 +1,32 @@
+<br>
+
+<div class="card">
+  <div class="card-body">
+
+    <h1>Services</h1>
+
+
+  <form [formGroup]="form">
+  <label formArrayName="orders" *ngFor="let order of ordersFormArray.controls; let i = index">
+    <input type="checkbox" [formControlName]="i">
+    {{ordersData[i].name}}
+  </label>
+
+  <div *ngIf="!form.valid">Must pick at least one.</div>
+  <br /> <br />
+  <button class="btn btn-primary btn-block btn-small"(click)="submit()"[disabled]="!form.valid">Add to Cart</button>
+  <br>
+  <hr />
+  <div class="form-group">
+  <label for="parts">Parts</label>
+  <input type="text" class="form-control" id="parts" placeholder="Enter Value">
+</div>
+<div class="form-group">
+  <label for="labor">Labor</label>
+  <input type="text" class="form-control" id="labor" placeholder="Enter Value">
+</div>
+</form>
+</div>
+</div>
+
+
